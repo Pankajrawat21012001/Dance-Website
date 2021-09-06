@@ -1,0 +1,65 @@
+
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    
+    section#introsection 
+        div Welcome to Pankaj's Dance Academy
+        div.small Eat Sleep Dance Repeat
+        
+    section#missionssection 
+        h1 Our Mission 
+        div.allcards
+            div.cards
+                h2 Perfection
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nesciunt? Repellendus nostrum tempore veniam hic aut magni! Quod aliquid corrupti eos praesentium et corporis earum tempore? Expedita odio nihil dolorum!
+            div.cards
+                h2 Expert Trainee
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nesciunt? Repellendus nostrum tempore veniam hic aut magni! Quod aliquid corrupti eos praesentium et corporis earum tempore? Expedita odio nihil dolorum!
+            div.cards
+                h2 High Perform
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nesciunt? Repellendus nostrum tempore veniam hic aut magni! Quod aliquid corrupti eos praesentium et corporis earum tempore? Expedita odio nihil dolorum!
+        
+    section#typesection 
+        h1 Dance Types
+        div.type-container
+            div.type
+                img(src="/static/logo1.png", alt="LOGO")
+                h1 Tango
+                h4 Argentina
+            div.type
+                img(src="/static/logo2.png", alt="LOGO")
+                h1 belly Dance
+                h4 Egypt
+
+            div.type
+                img(src="/static/logo3.png", alt="LOGO")
+                h1 Ballet
+                h4 Italy
+            div.type
+                img(src="/static/logo4.png", alt="LOGO")
+                h1 Hip-Hop
+                h4 America
+        
+
+
+    section#sponserssection 
+        h1 Our Sponsers
+        div.sponser-container
+            div.sponser
+                img(src="/static/sponser1-removebg-preview.png", alt="SPONSER")
+            div.sponser
+                img(src="/static/sponser2-removebg-preview.png", alt="SPONSER")
+            div.sponser
+                img(src="/static/sponser3-removebg-preview.png", alt="SPONSER")
+            div.sponser
+                img(src="/static/sponser4-removebg-preview.png", alt="SPONSER")
+            div.sponser
+                img(src="/static/sponser5-removebg-preview.png", alt="SPONSER")

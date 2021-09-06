@@ -1,0 +1,21 @@
+{
+  "name": "dance_website",
+  "version": "1.0.0",
+  "description": "This is a dance website full website using node.js and using pug and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
+  }
+}
